@@ -4,6 +4,7 @@
   "description": "Redmine REST API mock server",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/pixeldesu/fallalery/issues"
   },
-  "homepage": "https://github.com/pixeldesu/fallalery#readme"
+  "homepage": "https://github.com/pixeldesu/fallalery#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
