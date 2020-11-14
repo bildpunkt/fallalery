@@ -1,0 +1,59 @@
+
+
+{ 
+  "issues": [
+  {
+    "id": 1,
+    "project": {
+      "id": 1,
+      "name": "Test Project"
+    },
+    "tracker": {
+      "id": 1,
+      "name": "Feature"
+    },
+    "status": {
+      "id": 1,
+      "name": "Planning"
+    },
+    "priority": {
+      "id": 1,
+      "name": "Normal"
+    },
+    "author": {
+      "id": 1,
+      "name": "Fallalery"
+    },
+    "assigned_to": {
+      "id": 1,
+      "name": "Fallalery"
+    },
+    "fixed_version": {
+      "id": 1,
+      "name": "Version"
+    },
+    "parent": {
+      "id": 1
+    },
+    "subject": "Lorem ipsum",
+    "description": "Dolor sit amet",
+    "start_date": null,
+    "due_date": null,
+    "done_ratio": 0,
+    "is_private": false,
+    "estimated_hours": 4,
+    "custom_fields": [
+      {
+        "id": 1,
+        "name": "Custom Field",
+        "value": "Custom Field Value"
+      }
+    ],
+    "created_on": "2020-11-13T14:52:50Z",
+    "updated_on": "2020-11-13T14:52:50Z",
+    "closed_on": null
+  }],
+  "total_count": 1,
+  "offset": 0,
+  "limit": 25
+}

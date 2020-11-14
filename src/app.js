@@ -1,10 +1,6 @@
 const app = require('express')()
-const auth = require('./middleware/auth')
+const routes = require('./routes')
 
-app.use(auth)
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+app.use(...routes)
 
 module.exports = app
