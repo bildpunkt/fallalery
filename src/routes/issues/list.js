@@ -16,8 +16,8 @@ module.exports = ['/issues.:format', async (req, res) => {
       file = await readFile(join(__dirname, 'data/list.xml'))
       break
     default:
-      res.status(404).send()
-      break
+      res.status(406).send()
+      return
   }
   
   res.status(200).send(file)
